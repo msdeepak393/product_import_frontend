@@ -1,29 +1,56 @@
-# product_import_frontend
+# 📦 Product Import Frontend (Vue 3 + Vite)
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontend Single Page Application (SPA) built with **Vue 3**, **Vue Router**, and **Bootstrap 5** to connect with the [Laravel Product Import Backend](https://github.com/msdeepak393/product_import_backend).  
 
-## Recommended IDE Setup
+The app allows users to **register, login, upload a CSV file**, and **view imported products** using token-based authentication with Laravel Sanctum.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🔗 Backend API
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Make sure to set up and run the backend first:  
+🔗 **Laravel Backend Repo**: [https://github.com/msdeepak393/product_import_backend](https://github.com/msdeepak393/product_import_backend)
 
-## Project Setup
+---
 
-```sh
+## 📄 Sample CSV Format
+
+https://github.com/msdeepak393/product_import_frontend/blob/main/Sample%20products/Products.csv
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/msdeepak393/product_import_frontend
+cd product_import_frontend
+```
+
+---
+
+##  Project Setup
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Start Dev Server
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+###  Build for Production
 
-```sh
+```bash
 npm run build
 ```
+###  Build with
+Node version: v20.14.0
+NPM: 10.7.0
+
+## Note
+
+- The frontend is configured to use the API base URL: `http://localhost:8000/api`
+- Tokens are stored in `localStorage`
+- CORS must be properly set up on the Laravel backend for requests to succeed
+
+---
