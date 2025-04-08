@@ -54,3 +54,10 @@ NPM: 10.7.0
 - CORS must be properly set up on the Laravel backend for requests to succeed
 
 ---
+
+# Final Screenshots
+![screenshot](https://github.com/msdeepak393/product_import_frontend/blob/main/Final_out/image1.png)
+![screenshot](https://github.com/msdeepak393/product_import_frontend/blob/main/Final_out/image2.png)
+![screenshot](https://github.com/msdeepak393/product_import_frontend/blob/main/Final_out/image3.png)
+![screenshot](https://github.com/msdeepak393/product_import_frontend/blob/main/Final_out/image4.png)
+![screenshot](https://github.com/msdeepak393/product_import_frontend/blob/main/Final_out/image5.png)
